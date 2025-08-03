@@ -1,0 +1,52 @@
+.navbar {
+  background-color: #7c216d;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ffffff;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.logo a {
+  color: white;
+  text-decoration: none;
+}
+
+.logo a:hover {
+  color: #dfcbdc;
+}
+
+.mainMenu {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.mainMenu li a {
+  color: white !important;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.mainMenu li a:hover {
+  color: #208b8f;
+}
+
+.link {
+  color: white;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: #a2abac;
+}
