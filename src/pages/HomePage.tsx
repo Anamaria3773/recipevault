@@ -13,7 +13,7 @@ const featuredRecipes = [
   {
     id: "46",
     title: "Honey Garlic Chicken Thighs",
-    image: "images/honey-garlic-chicken-thighs.jpg",
+    image: "images/garlic-chicken-thighs.jpg",
     category: "Dinner",
     cookingTime: "45 min",
     description: "Tender chicken thighs glazed with a sweet and savory sauce.",
