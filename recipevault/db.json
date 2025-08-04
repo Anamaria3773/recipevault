@@ -4,7 +4,9 @@
       "id": "1",
       "username": "Ana",
       "email": "ana.tise@yahoo.com",
-      "password": "12345"
+      "password": "12345",
+      "firstName": "Ana",
+      "lastName": "Tișe"
     }
   ],
   "recipes": [
