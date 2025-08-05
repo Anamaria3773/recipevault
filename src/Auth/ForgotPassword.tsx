@@ -45,8 +45,9 @@ function ForgotPasswordPage() {
     <div className="container">
       <div className="card centered-card">
         <h2>Find Your Account</h2>
-        <p>Please enter your email or username</p>
+        <p>Please enter your email or username:</p>
         <input
+          className="input-field"
           type="text"
           placeholder="Email or Username"
           value={searchValue}

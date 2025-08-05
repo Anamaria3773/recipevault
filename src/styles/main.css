@@ -1,16 +1,40 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f3e8f2;
+  background-color: #f3eef3;
   margin: 0;
   padding: 0;
   color: #222;
 }
 
-h1, h2 {
-  font-size: 2rem;
+.container {
+  max-width: 1200px;
+  margin: 3rem auto;
+  padding: 0 3rem;
+}
+
+.card {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+h1 {
+  font-size: 3rem;
+  color: rgb(245, 212, 151);
   font-weight: 700;
   text-align: center;
   margin-bottom: 2rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: rgb(245, 212, 151);
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 5rem;
 }
 
 h3 {
@@ -20,13 +44,13 @@ h3 {
 }
 
 p {
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: #444;
 }
 
 .error-message {
   color: red;
-  margin-top: 0.3rem;
+  margin-top: 2rem;
   font-size: 0.9rem;
 }
 
@@ -35,12 +59,6 @@ p {
   font-weight: 600;
   margin-top: 1rem;
   text-align: center;
-}
-
-.container {
-  max-width: 1200px;
-  margin: 3rem auto;
-  padding: 0 3rem;
 }
 
 .recipe-grid {
@@ -53,15 +71,6 @@ p {
 .recipe-card {
   width: 300px;
   padding: 1rem;
-}
-
-.card {
-  background-color: white;
-  border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  padding: 2rem;
-  margin: 0 auto;
-  max-width: 800px;
 }
 
 .card form label {
@@ -96,8 +105,7 @@ p {
 .card .button-group {
   display: flex;
   justify-content: center;
-  gap: 1rem;
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 
 .recipe-card-content {
@@ -159,10 +167,23 @@ p {
 }
 
 .centered-card {
+  height: max-content;
   max-width: 450px;
   margin: 0 auto;
   padding: 2rem 2rem 1.5rem;
   text-align: center;
+}
+
+.input-field {
+  width: 70%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  box-sizing: border-box;
+  font-family: inherit;
 }
 
 .centered-form {
@@ -300,6 +321,7 @@ button,
     margin: 1rem 1rem;
   }
   .recipe-card-content {
+    width: 60%;
     margin: 0 auto;
   }
 }
@@ -472,4 +494,52 @@ button,
   .edit-form-row {
     flex-direction: column;
   }
+}
+
+.home-subtitle {
+  color: #7c216dff;
+  text-align: center;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.home-button-wrapper {
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.recipe-meta {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.sign-up-note {
+  color: #666;
+  text-align: center;
+  font-style: italic;
+  margin-top: 100px;
+  font-size: 20px; 
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 1rem;
+}
+
+.recipe-img {
+  width: 50%;
+  height: 320px;
+  border-radius: 10px;
+  margin-top: 1rem;
+  object-fit: cover;
+}
+
+.success-feedback {
+  color: green;
+  margin-top: 1rem;
+  font-weight: 600;
+  text-align: center;
+  transition: opacity 0.5s;
 }

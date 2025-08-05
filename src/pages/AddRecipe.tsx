@@ -111,8 +111,7 @@ function AddRecipe() {
                 <img
                   src={form.image}
                   alt="Preview"
-                  className="recipe-image"
-                  style={{ marginTop: "1rem" }}
+                  className="recipe-img"
                 />
               )}
             </div>
@@ -140,7 +139,7 @@ function AddRecipe() {
             <button type="submit" className="button-primary">Save</button>
             
             {showMessage && (
-              <p style={{ color: "green", marginTop: "1rem", transition: "opacity 0.5s" }}>
+              <p className="success-feedback">
                 {message}
               </p>
             )}

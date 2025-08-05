@@ -7,6 +7,14 @@
       "password": "12345",
       "firstName": "Ana",
       "lastName": "Tișe"
+    },
+    {
+      "id": "335d",
+      "firstName": "Elena",
+      "lastName": "Tișe",
+      "username": "Leah",
+      "email": "elle.leah@yahoo.com",
+      "password": "12345"
     }
   ],
   "recipes": [
@@ -621,7 +629,7 @@
       "difficulty": "Medium",
       "cookingTime": 40,
       "category": "Dessert",
-      "image": "images/cookies.jpg"
+      "image": "images/peanut-butter-brownies.jpg"
     },
     {
       "id": "38",
@@ -640,7 +648,7 @@
       "difficulty": "Easy",
       "cookingTime": 30,
       "category": "Dessert",
-      "image": "images/cookies.jpg"
+      "image": "images/carrot-muffins.jpg"
     },
     {
       "id": "39",
@@ -657,7 +665,7 @@
       "difficulty": "Medium",
       "cookingTime": 20,
       "category": "Dessert",
-      "image": "images/cookies.jpg"
+      "image": "images/nutella-crepes.jpg"
     },
     {
       "id": "40",
@@ -673,7 +681,7 @@
       "difficulty": "Easy",
       "cookingTime": 10,
       "category": "Dessert",
-      "image": "images/cookies.jpg"
+      "image": "images/raspberry-parfait.jpg"
     },
     {
       "id": "41",
@@ -691,7 +699,7 @@
       "difficulty": "Hard",
       "cookingTime": 180,
       "category": "Dessert",
-      "image": "images/cookies.jpg"
+      "image": "images/tiramisu.jpg"
     },
     {
       "id": "42",

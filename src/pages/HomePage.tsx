@@ -35,15 +35,17 @@ const HomePage = () => {
   return (
     <div className="container">
       <h1>Welcome to RecipeVault!</h1>
-      <p style={{ textAlign: "center" }}>
+      
+      <p className="home-subtitle">
         Start creating and sharing your favorite recipes.
       </p>
-      <div style={{ textAlign: "center", marginBottom: "2rem" }}>
+      
+      <div className="home-button-wrapper">
         <Link to="/recipes">
           <button className="button-primary">View Recipes</button>
         </Link>
       </div>
-
+      
       <div className="recipe-grid">
         {featuredRecipes.map((recipe) => (
           <div
@@ -71,13 +73,18 @@ const HomePage = () => {
             </div>
             <h3>{recipe.title}</h3>
             <p>{recipe.description}</p>
-            <p style={{ fontSize: "0.9rem", color: "#666" }}>
+            <p className="recipe-meta">
               <strong>{recipe.category}</strong> • {recipe.cookingTime}
             </p>
           </div>
         ))}
       </div>
-    </div>
+
+  <p className="sign-up-note">
+    For best experience, please sign up.
+  </p>
+</div>
+
   );
 };
 
