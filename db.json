@@ -4,17 +4,9 @@
       "id": "1",
       "username": "Ana",
       "email": "ana.tise@yahoo.com",
-      "password": "12345",
+      "password": "Ana21",
       "firstName": "Ana",
       "lastName": "Tișe"
-    },
-    {
-      "id": "335d",
-      "firstName": "Elena",
-      "lastName": "Tișe",
-      "username": "Leah",
-      "email": "elle.leah@yahoo.com",
-      "password": "12345"
     }
   ],
   "recipes": [
